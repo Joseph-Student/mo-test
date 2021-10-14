@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-environ = "*"
+psycopg2 = "*"
+dj-database-url = "*"
+djangorestframework = "*"
+requests = "*"
+aiohttp = {extras = ["speedups"], version = "*"}
+
+[dev-packages]
+pytest = "*"
+pytest-django = "*"
+factory-boy = "*"
+asyncstdlib = "*"
+
+[requires]
+python_version = "3.10"
